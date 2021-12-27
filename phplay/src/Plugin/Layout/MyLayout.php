@@ -2,7 +2,8 @@
 
 namespace Drupal\phplay\Plugin\Layout;
 
-use Drupal\Core\Layout\LayoutDefault;
+use Drupal\formatage_models\Plugin\Layout\Sections\FormatageModelsSection;
+
 
 /**
  * A very advanced custom layout.
@@ -22,6 +23,7 @@ use Drupal\Core\Layout\LayoutDefault;
  * )
  */
 
-class MyLayout extends LayoutDefault{
+class MyLayout extends FormatageModelsSection{
   
 }
+?>
